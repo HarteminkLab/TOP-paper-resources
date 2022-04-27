@@ -8,4 +8,18 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+The website contains the code and data resources for the `TOP` paper.
+
+  * Snakemake pipeline to generate and process datasets for running [TOP][top-package]
+  * Links to the precomputed TF occupancy predictions using `TOP`
+  * Pretrained `TOP` model parameters
+
+
+## Reference
+
+* Luo, K., Zhong, J., Safi, A., Hong, L., Tewari, A., Song, L., Reddy, T., Ma, L., 
+Crawford, G., & Hartemink, A. (2020) "Quantitative occupancy of myriad 
+transcription factors from one DNase experiment enables 
+efficient comparisons across conditions." *bioRxiv*, bioRxiv:2020.06.28.171587.
+
+[top-package]: https://github.com/HarteminkLab/TOP

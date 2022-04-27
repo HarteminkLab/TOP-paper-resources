@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About TOP"
 output:
   workflowr::wflow_html:
     toc: false
@@ -7,4 +7,22 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+Transcription factor Occupancy Profiler (TOP)
+=============================================
+
+Transcription factor Occupancy Profiler (TOP) fits a Bayesian hierarchical model 
+using transcription factor (TF) motifs, DNase- or ATAC-seq data,
+as well as ChIP-seq data (only required in training) 
+from multiple TFs across multiple cell types. 
+
+It can be used to predict the quantitative occupancy or binding probability
+for many TFs using data from a single DNase- or ATAC-seq experiment. 
+Thus, it allows efficient profiling of quantitative TF occupancy landscapes 
+across multiple cell types or conditions using DNase- or ATAC-seq experiments.
+
+[TOP R package website][top-webiste] 
+------------------------------------
+
+[top-webiste]: https://kevinlkx.github.io/TOP
+[github]: https://github.com/kevinlkx/TOP
+
