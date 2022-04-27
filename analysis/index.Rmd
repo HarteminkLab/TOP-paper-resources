@@ -17,7 +17,7 @@ We have included here:
   * An example [pipeline][snakemake-pipeline] using [Snakemake][snakemake] to 
   generate TOP training data used in the `TOP` paper.
   * Pretrained `TOP` [model parameters][pretrained-model].
-  * Links to the precomputed TF occupancy predictions using `TOP`.
+  * [Links][top-predictions] to precomputed TF occupancy predictions.
 
 **Reference**
 
@@ -37,5 +37,5 @@ under the terms of the [MIT license][mit-license].
 [mit-license]: https://opensource.org/licenses/mit-license.html
 [snakemake]: https://snakemake.readthedocs.io/en/stable/
 [snakemake-pipeline]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/code/snakemake
-[pretrained-model]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/data/trained_model_coef
-
+[pretrained-model]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/data/trained_model_coefs
+[top-predictions]: https://users.cs.duke.edu/~amink/software/TOP
