@@ -1,14 +1,7 @@
 name: "TOP-paper-resources"
 output_dir: ../docs
 navbar:
-  title: "TOP-paper-resources"
-  left:
-  - text: Home
-    href: index.html
-  - text: About
-    href: about.html
-  - text: License
-    href: license.html
+  title: "TOP paper resources"
 output:
   workflowr::wflow_html:
     toc: yes
