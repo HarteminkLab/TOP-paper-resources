@@ -1,13 +1,11 @@
 # TOP paper resources
 
-
-The website contains the data resources and data processing pipelines for the `TOP` paper.
-
-It is a companion website to the [TOP][top-package] package.
+This is a companion website to the [TOP][top-package] package and 
+contains the data resources and data processing pipelines for the `TOP` paper.
 
 We have included here:
 
-  * An example [pipeline][snakemake-pipeline] using [Snakemake][snakemake] to 
+  * Example [pipelines][snakemake-pipeline] using [Snakemake][snakemake] to 
   generate TOP training data used in the `TOP` paper.
   * Pretrained `TOP` [model parameters][pretrained-model].
   * [Links][top-predictions] to precomputed TF occupancy predictions.
