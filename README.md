@@ -28,5 +28,5 @@ under the terms of the [MIT license][mit-license].
 [mit-license]: https://opensource.org/licenses/mit-license.html
 [snakemake]: https://snakemake.readthedocs.io/en/stable/
 [snakemake-pipeline]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/code/snakemake
-[pretrained-model]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/data/trained_model_coefs
+[pretrained-model]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/data/trained_model_coef
 [top-predictions]: https://users.cs.duke.edu/~amink/software/TOP
