@@ -1,3 +1,3 @@
-# Code
+# Snakemake pipeline
 
-Save command-line scripts and shared R code here.
+Snakemake pipeline to generate and process datasets for running TOP
