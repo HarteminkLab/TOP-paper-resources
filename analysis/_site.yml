@@ -2,6 +2,9 @@ name: "TOP-paper-resources"
 output_dir: ../docs
 navbar:
   title: "TOP paper resources"
+  right:
+  - text: source
+    href: https://github.com/HarteminkLab/TOP-paper-resources
 output:
   workflowr::wflow_html:
     toc: yes
