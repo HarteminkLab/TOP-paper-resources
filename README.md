@@ -3,12 +3,10 @@
 This is a companion website to the [TOP][top-package] package and 
 contains the data resources and data processing pipelines for the `TOP` paper.
 
-We have included here:
-
   * Example [pipelines][snakemake-pipeline] using [Snakemake][snakemake] to 
   generate TOP training data used in the `TOP` paper.
   * Pretrained `TOP` [model parameters][pretrained-model].
-  * [Links][top-predictions] to precomputed TF occupancy predictions.
+  * Precomputed TF occupancy predictions on our lab [website][top-predictions].
 
 **Reference**
 
@@ -29,4 +27,4 @@ under the terms of the [MIT license][mit-license].
 [snakemake]: https://snakemake.readthedocs.io/en/stable/
 [snakemake-pipeline]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/code/snakemake
 [pretrained-model]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/data/trained_model_coef
-[top-predictions]: https://users.cs.duke.edu/~amink/software/TOP
+[top-predictions]: https://users.cs.duke.edu/~amink/software/
