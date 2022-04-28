@@ -23,14 +23,14 @@ Crawford, G., & Hartemink, A. (2020) "Quantitative occupancy of myriad
 transcription factors from one DNase experiment enables 
 efficient comparisons across conditions." *bioRxiv*, bioRxiv:2020.06.28.171587.
 
-
 **License**
 
-All source code and software in this repository are made available
+All source code and software in this [Github repository][top-resources-github] are made available
 under the terms of the [MIT license][mit-license].
 
 [top-package]: https://github.com/HarteminkLab/TOP
 [top-webiste]: https://kevinlkx.github.io/TOP
+[top-resources-github]: https://github.com/HarteminkLab/TOP-paper-resources
 [mit-license]: https://opensource.org/licenses/mit-license.html
 [snakemake]: https://snakemake.readthedocs.io/en/stable/
 [snakemake-pipeline]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/code/snakemake
