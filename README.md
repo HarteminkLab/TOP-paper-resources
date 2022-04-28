@@ -18,7 +18,7 @@ efficient comparisons across conditions." *bioRxiv*, bioRxiv:2020.06.28.171587.
 
 **License**
 
-All source code and software in this [Github repository][top-resources-github] are made available
+All source code and software in this repository are made available
 under the terms of the [MIT license][mit-license].
 
 [top-package]: https://github.com/HarteminkLab/TOP
