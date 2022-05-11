@@ -11,6 +11,8 @@ option_list <- list(
               help="DNase-seq or ATAC-seq alignment BAM filename."),
   make_option("--chrom_size", action="store", default=NULL, type="character",
               help="Filename listing the size for each chromosome."),
+  make_option("--data_type", action="store", default=NULL, type="character",
+              help="Data type. Options: DNase or ATAC."),
   make_option("--shift_ATAC", action="store_true", default=FALSE,
               help="Shift ATAC reads."),
   make_option("--shift_ATAC_bases", action="store", default="4,-4", type="character",
@@ -28,6 +30,7 @@ option_list <- list(
 opt <- parse_args(OptionParser(option_list=option_list))
 bam_file               <- opt$bam
 chrom_size_file        <- opt$chrom_size
+data_type              <- opt$data_type
 shift_ATAC             <- opt$shift_ATAC
 shift_ATAC_bases       <- opt$shift_ATAC_bases
 outdir                 <- opt$outdir
@@ -45,6 +48,7 @@ if(!is.null(shift_ATAC_bases)){
 
 count_genome_cuts(bam_file,
                   chrom_size_file,
+                  data_type=data_type,
                   shift_ATAC=shift_ATAC,
                   shift_ATAC_bases=shift_ATAC_bases,
                   outdir=outdir,
