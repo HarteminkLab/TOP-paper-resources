@@ -8,8 +8,8 @@ rule count_atac_genome_cuts:
         fwd = ATAC_GENOMECOUNTS_FWD_FILE,
         rev = ATAC_GENOMECOUNTS_REV_FILE
     params:
-        shift_ATAC = '--shift_ATAC',
-        shift_ATAC_bases = '4,-4'
+        data_type = 'ATAC',
+        shift_ATAC = '--shift_ATAC'
     conda:
         '../envs/top.yaml'
     log:
@@ -20,8 +20,8 @@ rule count_atac_genome_cuts:
         Rscript scripts/count_acc_genome_cuts.R \
         --bam {input.bam} \
         --chrom_size {input.chrom_size} \
+        --data_type {params.data_type} \
         {params.shift_ATAC} \
-        --shift_ATAC_bases {params.shift_ATAC_bases} \
         --outdir {ATAC_GENOMECOUNTS_DIR} \
         --outname {wildcards.atac_sample} \
         &> {log}
