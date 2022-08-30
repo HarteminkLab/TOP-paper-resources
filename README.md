@@ -10,10 +10,11 @@ contains the data resources and data processing pipelines for the `TOP` paper.
 
 **Reference**
 
-* Luo, K., Zhong, J., Safi, A., Hong, L., Tewari, A., Song, L., Reddy, T., Ma, L., 
-Crawford, G., & Hartemink, A. (2020) "Quantitative occupancy of myriad 
-transcription factors from one DNase experiment enables 
-efficient comparisons across conditions." *bioRxiv*, bioRxiv:2020.06.28.171587.
+* Luo K, Zhong J, Safi A, Hong LK, Tewari AK, Song L, Reddy TE, Ma L, 
+Crawford GE, Hartemink AJ. 
+Profiling the quantitative occupancy of myriad transcription factors across 
+conditions by modeling chromatin accessibility data. 
+Genome Res. 2022 Jun;32(6):1183-1198. doi: 10.1101/gr.272203.120.
 
 
 **License**
@@ -28,4 +29,4 @@ under the terms of the [MIT license][mit-license].
 [snakemake]: https://snakemake.readthedocs.io/en/stable/
 [snakemake-pipeline]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/code/snakemake
 [pretrained-model]: https://github.com/HarteminkLab/TOP-paper-resources/tree/main/data/trained_model_coef
-[top-predictions]: https://users.cs.duke.edu/~amink/software/
+[top-predictions]: https://duke.box.com/v/toppredictionsgr202204
